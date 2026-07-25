@@ -1,0 +1,35 @@
+Trainz IM → OBJ Universal 2.0 compatibility test summary
+========================================================
+
+Real file test
+--------------
+IS20-16A.im
+- INFO 104
+- MATL 103
+- GEOM 201
+- 20 chunks
+- 20,661 vertices
+- 19,123 triangles
+- 19 attachments
+- OBJ independently loaded as 20 geometries with matching counts
+
+Synthetic format matrix
+-----------------------
+PASS: GEOM 100
+PASS: GEOM 101
+PASS: GEOM 102
+PASS: GEOM 103
+PASS: GEOM 104 with colors
+PASS: GEOM 104 without colors
+PASS: GEOM 200 with rigid parent bone
+PASS: GEOM 201 with tangents
+PASS: GEOM 201 without tangents
+PASS: GEOM 202-compatible prefix
+PASS: line primitives
+PASS: MATL 100
+PASS: MATL 101
+PASS: MATL 102
+PASS: MATL 103
+PASS: wide UTF-16 JET strings
+PASS: raw IDXM without JIRF
+PASS: salvage of valid geometry when another CHNK is damaged

@@ -1,0 +1,16 @@
+TRAINZ IM TO OBJ CONVERTER 2.1
+==============================
+
+QUICK START
+
+1. Install Python 3.
+2. Drag an .im file, config.txt, or an entire asset folder onto:
+   DRAG_AND_DROP_IM_CONFIG_OR_FOLDER.bat
+
+To convert every .im file located under this folder, run:
+   CONVERT_ALL_IM_IN_THIS_FOLDER.bat
+
+The filenames and BAT contents use ASCII only so that Windows Explorer and
+Command Prompt display them correctly regardless of the active system locale.
+
+Подробная инструкция на русском находится в README_RU.txt.
